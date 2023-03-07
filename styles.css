@@ -25,6 +25,43 @@
 }
 
 a {
-text-decoration: none;
-color: #E5E7EB;
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.aboutBackground {
+    background-color: #1F2937;
+}
+
+.aboutContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 60px 70px 60px;
+}
+
+.aboutLeft {
+   max-width: 40%;
+}
+
+.aboutRight {
+    max-width: 40%;
+}
+
+.aboutMainText {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.aboutSecondaryText {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.aboutButton {
+    background-color: #3882F6;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 10px;
 }
