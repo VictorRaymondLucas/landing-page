@@ -12,7 +12,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 80px 10px 80px;
+    padding: 10px 80px;
 }
 
 .headerLeft {
@@ -22,6 +22,9 @@
 
 .headerRight {
     font-size: 18px;
+    display: flex;
+    gap: 25px;
+
 }
 
 a {
@@ -37,7 +40,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    padding: 70px 80px 70px 80px;
+    padding: 70px 80px;
 }
 
 .aboutLeft {
@@ -90,7 +93,65 @@ a {
     justify-content: space-evenly;
 }
 
+.quoteBackground {
+    background-color: #E5E7EB;
+}
 
+.quoteContainer {
+    padding: 70px 150px;
+}
 
+.quoteText1 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
 
+.quoteText2 {
+    text-align: end;
+    font-size: 24px;
+    font-weight: bolder;
+    padding-top: 10px;
+}
 
+.actionBackground {
+
+}
+
+.actionContainer {
+    padding: 70px 70px;
+    background-color: #3882F6;
+    margin: 60px 80px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.actionLeft {
+    color: white;
+}
+
+.actionRight {
+    
+}
+
+.actionButton {
+    background-color: transparent;
+    color: white;
+    padding: 8px 20px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+.footerBackground {
+    background-color: #1F2937;
+}
+
+.footerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 80px;
+    color: white;
+}
