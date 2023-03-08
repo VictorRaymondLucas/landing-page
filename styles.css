@@ -38,7 +38,6 @@ a {
 .aboutContainer {
     display: flex;
     justify-content: space-between;
-    align-items: ;
     padding: 70px 100px;
 }
 
