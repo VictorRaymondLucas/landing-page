@@ -12,7 +12,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 80px;
+    padding: 20px 100px;
 }
 
 .headerLeft {
@@ -24,7 +24,6 @@
     font-size: 18px;
     display: flex;
     gap: 25px;
-
 }
 
 a {
@@ -39,8 +38,8 @@ a {
 .aboutContainer {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
-    padding: 70px 80px;
+    align-items: ;
+    padding: 70px 100px;
 }
 
 .aboutLeft {
@@ -48,7 +47,14 @@ a {
 }
 
 .aboutRight {
-    max-width: 40%;
+    
+}
+
+.aboutImage {
+    width: 450px;
+    height: 220px;
+    border: 1px solid white;
+    max-width: 100%;
 }
 
 .aboutMainText {
@@ -77,7 +83,7 @@ a {
 }
 
 .infoContainer {
-    padding: 20px 80px 70px 80px;
+    padding: 40px 100px 70px 100px;
 }
 
 .infoHeadline {
@@ -85,12 +91,25 @@ a {
     font-size: 36px;
     color: #1F2937;
     font-weight: bolder;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 
 .infoContainer2 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 100px;
+}
+
+.infoContainer3 {
+    text-align: center;
+}
+
+.infoImage {
+    width: 50px;
+    height: auto;
+    border: 8px solid #E5E7EB;
+    max-width: 100%;
+
 }
 
 .quoteBackground {
@@ -121,7 +140,7 @@ a {
 .actionContainer {
     padding: 70px 70px;
     background-color: #3882F6;
-    margin: 60px 80px;
+    margin: 60px 100px;
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
@@ -155,3 +174,4 @@ a {
     padding: 30px 80px;
     color: white;
 }
+ 
